@@ -18,7 +18,7 @@ class ChartRepository{
     public function getChartData($reportId, $chart)
     {
         $chart = strtolower($chart);
-        
+
         return DB::table($chart)->where('report_id',$reportId)->first();
     }
 

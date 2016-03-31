@@ -35,5 +35,15 @@ class TokenRepository{
         return $tokenCollection;
     }
 
+    public function saveToken($provider,$token)
+    {
+        $tokenCollection = new Token();
 
+        $tokenCollection->provider = $provider;
+        $tokenCollection->token = $token;
+
+        $tokenCollection->save();
+
+        return $tokenCollection;
+    }
 }

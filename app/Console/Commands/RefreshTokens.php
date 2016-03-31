@@ -54,11 +54,28 @@ class RefreshTokens extends Command
     {
         $tokenCollection = $this->tokenService->getToken('facebook');
 
-        $token = $this->exchangeToken($tokenCollection->token);
+        if(isset($tokenCollection))
+        {
+            $firstToken = $tokenCollection->token;
 
-        Log::info($token);
+            $token = $this->exchangeToken($firstToken);
 
-        $this->tokenService->updateToken($tokenCollection, $token);
+            $this->tokenService->updateToken($tokenCollection, $token);
+
+        }else{
+
+            $firstToken = env('FACEBOOK_TOKEN');
+
+            $token = $this->exchangeToken($firstToken);
+
+            $this->tokenService->saveToken('facebook', $token);
+        }
+
+
+
+        //Log::info($token);
+
+
     }
 
     protected function getHttpClient()

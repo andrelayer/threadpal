@@ -35,5 +35,9 @@ protected $tokenRepository;
         return $this->tokenRepository->updateToken($tokenCollection, $token);
     }
 
+    public function saveToken($provider, $token)
+    {
+        return $this->tokenRepository->saveToken($provider, $token);
+    }
 
 }
