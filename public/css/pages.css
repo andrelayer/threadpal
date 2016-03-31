@@ -1,0 +1,22 @@
+.hero-subtitle{
+    font-size: 50px;
+}
+
+.hero-box{
+    height: 600px;
+    display: table;
+    table-layout: fixed;
+    background-color: #000000;
+    background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5) ), url(../img/hero-bg-2.jpg) no-repeat center center;
+
+    background-size: cover;
+
+}
+
+.left-hero-box{
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    color: #ffffff;
+
+}
