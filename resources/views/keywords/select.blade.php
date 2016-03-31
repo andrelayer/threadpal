@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Select which keyword you want to generate a report on</div>
+                    <div class="panel-heading">Select which one is correct</div>
 
                     <div class="panel-body">
                         {!! Form::open(['url' => 'reports']) !!}
