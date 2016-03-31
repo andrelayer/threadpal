@@ -11,31 +11,31 @@ class ChartService
 
 
     protected $chartGraph = array(
-        'chart_gender' => array(
+        'Chart_Gender' => array(
             'type' =>'PieChart',
             'percent_id' => 'chart_gender_percent',
             'index_id' => 'chart_gender_index',
             'title' => 'Gender',
         ),
-        'chart_age' => array(
+        'Chart_Age' => array(
             'type' =>'ColumnChart',
             'percent_id' => 'chart_age_percent',
             'index_id' => 'chart_age_index',
             'title' => 'Age',
         ),
-        'chart_income' => array(
+        'Chart_Income' => array(
             'type' =>'ColumnChart',
             'percent_id' => 'chart_income_percent',
             'index_id' => 'chart_income_index',
             'title' => 'Household Income',
         ),
-        'chart_ethnicity' => array(
+        'Chart_Ethnicity' => array(
             'type' =>'DonutChart',
             'percent_id' => 'chart_ethnicity_percent',
             'index_id' => 'chart_ethnicity_index',
             'title' => 'Minority Report',
         ),
-        'chart_education' => array(
+        'Chart_Education' => array(
             'type' =>'BarChart',
             'percent_id' => 'chart_education_percent',
             'index_id' => 'chart_education_index',

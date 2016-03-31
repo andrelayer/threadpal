@@ -18,7 +18,7 @@ class ReportService{
 
 
     protected $reportType = array(
-        'main'=> array('chart_gender','chart_age','chart_income','chart_ethnicity','chart_education'),
+        'main'=> array('Chart_Gender','Chart_Age','Chart_Income','Chart_Ethnicity','Chart_Education'),
     );
 
 

@@ -23,7 +23,7 @@ class ChartRepository{
 
 
 
-    public function chart_gender($token,$keywordName = NULL, $keywordId = NULL)
+    public function Chart_Gender($token,$keywordName = NULL, $keywordId = NULL)
     {
         Api::init(env('FACEBOOK_CLIENT_ID'), env('FACEBOOK_CLIENT_SECRET'), $token);
 
@@ -72,7 +72,7 @@ class ChartRepository{
         return $reach;
     }
 
-    public function chart_age($token,$keywordName = NULL, $keywordId = NULL)
+    public function Chart_Age($token,$keywordName = NULL, $keywordId = NULL)
     {
         Api::init(env('FACEBOOK_CLIENT_ID'), env('FACEBOOK_CLIENT_SECRET'), $token);
 
@@ -131,7 +131,7 @@ class ChartRepository{
     
     }
 
-    public function chart_income($token,$keywordName = NULL, $keywordId = NULL)
+    public function Chart_Income($token,$keywordName = NULL, $keywordId = NULL)
     {
 
         $total_reach = 0;
@@ -199,7 +199,7 @@ class ChartRepository{
         return $reach;
     }
 
-    public function chart_ethnicity($token,$keywordName = NULL, $keywordId = NULL)
+    public function Chart_Ethnicity($token,$keywordName = NULL, $keywordId = NULL)
     {
 
         $total_reach = 0;
@@ -274,7 +274,7 @@ class ChartRepository{
         return $reach;
     }
 
-    public function chart_education($token,$keywordName = NULL, $keywordId = NULL)
+    public function Chart_Education($token,$keywordName = NULL, $keywordId = NULL)
     {
         Api::init(env('FACEBOOK_CLIENT_ID'), env('FACEBOOK_CLIENT_SECRET'), $token);
 

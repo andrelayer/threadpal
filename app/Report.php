@@ -15,23 +15,23 @@ class Report extends Model
         'slug'
     ];
 
-    public function chart_gender()
+    public function Chart_Gender()
     {
         return $this->hasOne('App\Chart_Gender');
     }
-    public function chart_age()
+    public function Chart_Age()
     {
         return $this->hasOne('App\Chart_Age');
     }
-    public function chart_income()
+    public function Chart_Income()
     {
         return $this->hasOne('App\Chart_Income');
     }
-    public function chart_ethnicity()
+    public function Chart_Ethnicity()
     {
         return $this->hasOne('App\Chart_Ethnicity');
     }
-    public function chart_education()
+    public function Chart_Education()
     {
         return $this->hasOne('App\Chart_Education');
     }
