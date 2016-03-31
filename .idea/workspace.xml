@@ -22,10 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ReportRepository.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReportRepository.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Repositories/ReportRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.051971328">
+            <state vertical-scroll-proportion="1.1153846">
               <caret line="14" column="99" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
               <folding>
                 <element signature="e#35#50#0#PHP" expanded="true" />
@@ -98,6 +98,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="search.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/keywords/search.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33512545">
+              <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
@@ -142,7 +152,6 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/public/css/pages.css" />
         <option value="$PROJECT_DIR$/public/css/creative.css" />
-        <option value="$PROJECT_DIR$/resources/views/keywords/search.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/keywords/select.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/_navbar.blade.php" />
@@ -154,6 +163,7 @@
         <option value="$PROJECT_DIR$/app/Repositories/ChartRepository.php" />
         <option value="$PROJECT_DIR$/app/Services/ChartService.php" />
         <option value="$PROJECT_DIR$/app/Report.php" />
+        <option value="$PROJECT_DIR$/resources/views/keywords/search.blade.php" />
       </list>
     </option>
   </component>
@@ -887,14 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/keywords/search.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/keywords/select.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.2692308">
@@ -1023,11 +1025,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Repositories/ReportRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.051971328">
+        <state vertical-scroll-proportion="1.1153846">
           <caret line="14" column="99" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
           <folding>
             <element signature="e#35#50#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/keywords/search.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33512545">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
