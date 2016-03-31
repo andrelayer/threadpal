@@ -18,6 +18,7 @@ class KeywordRepository{
 
     public function search($keyword, $token)
     {
+        $autocomplete = NULL;
 
         $count = 0;
         $limit = 10;

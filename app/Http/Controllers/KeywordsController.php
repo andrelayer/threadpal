@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Services\KeywordService;
+use Laracasts\Flash\Flash;
 
 class KeywordsController extends Controller
 {
@@ -21,7 +22,19 @@ class KeywordsController extends Controller
 
         $autocomplete = $keywordService->search($input['keyword']);
 
-        return view('keywords/select', compact('autocomplete'));
+        if(isset($autocomplete)){
+
+            return view('keywords/select', compact('autocomplete'));
+
+        }else{
+
+            Flash::error('Sorry, there were no results for that keyword, please try again');
+
+            return view('keywords/search');
+
+        }
+
+
     }
 
 }
